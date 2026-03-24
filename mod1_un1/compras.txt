@@ -3,4 +3,5 @@ carne
 galletitas
 bebidas
 pollo
+aderezos
 
