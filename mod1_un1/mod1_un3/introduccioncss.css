@@ -1,9 +1,0 @@
-h1 {color: green; /*color del texto*/
-font-family: Verdana /*fuente del texto*/;
-background-color: yellow /*color del fondo*/; text-align: center /*alineación del texto*/; text-transform: uppercase /*transforma el texto a mayúscula*/;
-}
-h2 {color: red; /*color del texto*/
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-decoration: underline;}
-p {font-family:Arial, Helvetica, sans-serif; /*fuente del texto*/ line-height: 30px;}
-.destacado {font-style: italic; font-weight: bold; /*negrita*/}
-.subrayado {text-decoration: underline;}

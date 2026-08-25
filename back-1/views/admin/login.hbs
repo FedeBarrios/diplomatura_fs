@@ -1,0 +1,23 @@
+<h2>Acceso al panel del administrador</h2>
+
+<div class="caja-login">
+  <form method="POST" action="/admin/login">
+    <div>
+      <label>Nombre:</label>
+      <input type="text" name="nombre">
+    </div>
+    <div>
+      <label>Apellido:</label>
+      <input type="text" name="apellido">
+    </div>
+    <div>
+      <label>Contraseña:</label>
+      <input type="password" name="password">
+    </div>
+    <button type="submit">Ingresar</button>
+  </form>
+
+  {{#if error}}
+    <p>Usuario o contraseña incorrectos</p>
+  {{/if}}
+</div>

@@ -1,0 +1,17 @@
+<h1>Editar mensaje</h1>
+
+<form action="/admin/novedades/{{mensaje.id}}/editar" method="POST">
+  <label>Nombre</label>
+  <input type="text" name="nombre" value="{{mensaje.nombre}}">
+
+  <label>Email</label>
+  <input type="email" name="email" value="{{mensaje.email}}">
+
+  <label>Teléfono</label>
+  <input type="text" name="telefono" value="{{mensaje.telefono}}">
+
+  <label>Mensaje</label>
+  <textarea name="mensaje">{{mensaje.mensaje}}</textarea>
+
+  <button type="submit">Guardar cambios</button>
+</form>
