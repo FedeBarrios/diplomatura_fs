@@ -36,7 +36,6 @@ CREATE TABLE `mensajes` (
   `email` varchar(100) COLLATE utf8mb4_general_ci NOT NULL,
   `telefono` varchar(50) COLLATE utf8mb4_general_ci DEFAULT NULL,
   `mensaje` text COLLATE utf8mb4_general_ci NOT NULL,
-  `fecha` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -90,4 +89,4 @@ SET @@SESSION.SQL_LOG_BIN = @MYSQLDUMP_TEMP_LOG_BIN;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-08-25 20:26:42
+-- Dump completed on 2026-08-26 11:08:54

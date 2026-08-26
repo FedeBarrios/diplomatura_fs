@@ -2,7 +2,7 @@ var pool = require('./bd');
 
 async function getMensajes() {
     try {
-        var query = "SELECT * FROM mensajes ORDER BY fecha DESC";
+        var query = "SELECT * FROM mensajes ORDER BY id DESC";
         var rows = await pool.query(query);
         return rows;
     } catch (error) {
