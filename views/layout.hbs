@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{title}}</title>
+  <style>
+    form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('/images/background1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  .tabla-mensajes,
+.tabla-mensajes th,
+.tabla-mensajes td {
+  background: white;
+  color: black;
+}
+}
+    header, footer {
+      text-align: center;
+      padding: 1rem;
+    }
+    .caja-login {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.caja-login div {
+  margin-bottom: 1rem;
+}
+
+.caja-login input {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h2>La Biblioteca del Ajedrez</h2>
+    <a href="/admin/login/logout">Cerrar sesión</a>
+  </header>
+
+  {{{body}}}
+
+  <footer>Federico Barrios. Derechos reservados 2026</footer>
+</body>
+</html>
